@@ -1,0 +1,111 @@
+.box-global {
+  background-color: #FFFFFF;
+}
+
+.box-ijo {
+  display: flex;
+  justify-content: space-between; /* horizontal*/
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.box-pink {
+  display: flex;
+  align-items: center; /* vertical */
+}
+
+.box-ungu {
+}
+
+.logo {
+  width: 88.46px;
+  height: 60px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #051E55;
+}
+
+.box-yellow {
+  height: 500px;
+  background-image: url('images/background-intro.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.box-intro {
+  display: inline-block;
+}
+
+.title-intro {
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #0E3C8A;
+}
+
+.subtitle-intro {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.subtitle-intro-2 {
+  color: #0E3C8A;
+}
+
+.box-button {
+  display: flex;
+}
+
+.box-contact {
+  background: #2E7CDF;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px;
+}
+
+.box-contact:hover {
+  background-color: #0E3C8A;
+}
+
+.box-contact a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.box-resume {
+  border: 1px solid #2E7CDF;
+  border-radius: 5px;
+  padding: 15px 40px 15px 40px;
+  margin-left: 54px;
+}
+
+.box-resume:hover a {
+  color: #000000;
+}
+
+.box-resume  a {
+  color: #2E7CDF;
+  text-decoration: none;
+}
